@@ -940,3 +940,4 @@ export default function PeerChat({ currentUser, initialActivePeer, onClose }) {
     </div>
   );
 }
+// PeerChat component - peer messaging UI
