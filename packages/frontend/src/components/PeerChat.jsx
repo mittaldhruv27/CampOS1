@@ -941,3 +941,11 @@ export default function PeerChat({ currentUser, initialActivePeer, onClose }) {
   );
 }
 // PeerChat component - peer messaging UI
+
+const MessageBubble = ({ message, isSender }) => (
+  <div className={`flex ${isSender ? "justify-end" : "justify-start"} mb-2`}>
+    <div className={`px-4 py-2 rounded-2xl max-w-xs ${isSender ? "bg-violet-500 text-white" : "bg-white/10 text-gray-200"}`}>
+      {message.text}
+    </div>
+  </div>
+);
