@@ -1428,3 +1428,7 @@ function CanteenTicketModal({ order, onClose, onRemove }) {
 }
 
 export default App;
+
+// Peer Chat and Notices routes
+// <Route path="/chat/:peerId" element={<PeerChat />} />
+// <Route path="/notices" element={<NoticeFeed />} />
